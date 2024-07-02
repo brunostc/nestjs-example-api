@@ -14,16 +14,16 @@ This is a NestJS v10 application that uses Docker and Docker Compose to spin up 
 
 1. **Clone the repository**
 
-    ```
-    git clone https://github.com/brunostc/nestjs-example-api.git
-    cd nestjs-example-api
-    ```
+```
+git clone https://github.com/brunostc/nestjs-example-api.git
+cd nestjs-example-api
+```
 
 2. **Start the containers**
 
-    ```
-    docker-compose up -d --build
-    ```
+```
+docker-compose up -d --build
+```
 
 This will spin up two containers:
 - `mysql`: Runs MySQL database.
@@ -49,23 +49,23 @@ These variables are defined in the `docker-compose.yml` file.
 
 To stop the running containers, use:
 
-    ```
-    docker-compose down
-    ```
+```
+docker-compose down
+```
 
 ### Installing New Dependencies
 
 1. Install the dependency locally:
 
-    ```sh
-    npm install <dependency-name>
-    ```
+```
+npm install <dependency-name>
+```
 
 2. Rebuild the Docker container:
 
-    ```sh
-    docker-compose up -d --build
-    ```
+```
+docker-compose up -d --build
+```
 
 ## Repository
 
